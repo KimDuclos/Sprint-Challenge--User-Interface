@@ -71,10 +71,35 @@ p {
     margin: 0 auto;
 }
 
+/*******Added missing nav bar css**************/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: baseline;
+    width: 95%;
+    height: 75px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+nav a {
+    font-size: 14px;
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+/**********************************************/
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    padding-top: 30px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -112,6 +137,49 @@ p {
     justify-content: center;
 }
 
+
+/***********Updated Box Color CSS*********/
+    .middle-content .boxes .one {
+        background: teal;
+    }
+
+    .middle-content .boxes .two {
+        background: gold;
+    }
+
+    .middle-content .boxes .three {
+        background: cadetblue;
+    }
+
+    .middle-content .boxes .four {
+        background: coral;
+    }
+
+    .middle-content .boxes .five {
+        background: crimson;
+    }
+
+    .middle-content .boxes .six {
+        background: forestgreen;
+    }
+
+    .middle-content .boxes .seven {
+        background: darkorchid;
+    }
+
+    .middle-content .boxes .eight {
+        background: hotpink;
+    }
+
+    .middle-content .boxes .nine {
+        background: indigo;
+    }
+
+    .middle-content .boxes .ten {
+        background: dodgerblue;
+    }
+/****************************************/
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -129,13 +197,15 @@ p {
 footer {
     width: 100%;
     background: black;
+    margin-top: 40px;
 }
 
 footer nav {
     width: 60%;
+    height: 60px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-content: flex-start;
     padding: 20px 2%;
     font-size: 14px;
 }
@@ -143,4 +213,9 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+footer nav a:link {
+    text-decoration: none;
+    color: white;
 }
