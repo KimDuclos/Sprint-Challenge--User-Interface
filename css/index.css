@@ -135,8 +135,15 @@ a:link {
     display: flex;
     align-items: center;
     justify-content: center;
+    -webkit-transition: -webkit-transform .4s ease-in-out;
+    transition: transform .4s ease-in-out;
 }
 
+/********Box animation*************/
+.box:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
 
 /***********Updated Box Color CSS*********/
     .middle-content .boxes .one {
