@@ -92,115 +92,41 @@ a:link {
     text-decoration: none;
     color: black;
 }
-/**********************************************/
 
-
-.top-content {
+/**********Contact Form*****************/
+.contact-box {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding-top: 30px;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
-}
-
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
     justify-content: center;
-    -webkit-transition: -webkit-transform .4s ease-in-out;
-    transition: transform .4s ease-in-out;
+    flex-wrap: wrap;
 }
 
-/********Box animation*************/
-.box:hover {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
+input[type=submit] {
+    width: 100%;
+    background-color: gray;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  .message-box {
+      height: 100px;
+      width: 300px;
+      padding: 0px 0px 80px 0px;
+
+  }
+
+.contact-info {
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
-
-/***********Updated Box Color CSS*********/
-    .middle-content .boxes .one {
-        background: teal;
-    }
-
-    .middle-content .boxes .two {
-        background: gold;
-    }
-
-    .middle-content .boxes .three {
-        background: cadetblue;
-    }
-
-    .middle-content .boxes .four {
-        background: coral;
-    }
-
-    .middle-content .boxes .five {
-        background: crimson;
-    }
-
-    .middle-content .boxes .six {
-        background: forestgreen;
-    }
-
-    .middle-content .boxes .seven {
-        background: darkorchid;
-    }
-
-    .middle-content .boxes .eight {
-        background: hotpink;
-    }
-
-    .middle-content .boxes .nine {
-        background: indigo;
-    }
-
-    .middle-content .boxes .ten {
-        background: dodgerblue;
-    }
-/****************************************/
-
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-}
-
+/*******Footer and nav**************/
 footer {
     width: 100%;
     background: black;
